@@ -107,3 +107,44 @@ function task10_2(test) {
         console.log('Неверно');
     }
 }
+
+// #11
+
+function task11(a) {
+    if (a > 0 && a < 5) {
+        console.log('Верно');
+    } else {
+        console.log('Неверно');
+    }
+}
+
+// #12
+
+function task12(a) {
+    if (a === 0 || a === 2) {
+        a += 7;
+    } else {
+        a /= 10;
+    }
+    alert(a);
+}
+
+// #13
+
+function task13(a, b) {
+    if (a <= 1 && b >= 3) {
+        console.log(a + b);
+    } else {
+        console.log(a - b);
+    }
+}
+
+// #14
+
+function task14(a, b) {
+    if ((a > 2 && a < 11) || (b >= 6 && b < 14)) {
+        console.log('Верно');
+    } else {
+        console.log('Неверно');
+    }
+}
