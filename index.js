@@ -79,3 +79,31 @@ function task8(a) {
         console.log('Неверно');
     }
 }
+
+// #9
+
+function task9_1(test) {
+    test ? console.log('Верно') : console.log('Неверно');
+}
+
+function task9_2(test) {
+    if (test) {
+        console.log('Верно');
+    } else {
+        console.log('Неверно');
+    }
+}
+
+// #10
+
+function task10_1(test) {
+    test ? console.log('Неверно') : console.log('Верно');
+}
+
+function task10_2(test) {
+    if (!test) {
+        console.log('Верно');
+    } else {
+        console.log('Неверно');
+    }
+}
